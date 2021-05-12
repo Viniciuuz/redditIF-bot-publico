@@ -29,7 +29,7 @@ def remove_post(post_id):
     ac_post.mod.remove()
     reddit.redditor(str(ac_post.author)).message('Seu post foi removido',
                                                 f"""o seu [post](https://reddit.com/{post_id}) em r/IFFans foi removido por ir contra as nossas regras.  
-                                                (Esta ação feita por um bot, se você acha que foi um engano, fale com o criador do bot: u/_3DWaffle_)""",
+                                                (Esta ação foi feita por um bot, se você acha que foi um engano, fale com o criador do bot: u/_3DWaffle_)""",
                                                 from_subreddit="IFFans")
 
 def compare(image):
